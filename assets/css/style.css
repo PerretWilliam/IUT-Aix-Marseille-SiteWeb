@@ -18,9 +18,7 @@ body {
 
 /* Barre de navigation */
 .navbar {
-  background-color: #660099;
-  padding: 2%;
-  /* Ajout d'unités de mesure */
+  padding-right: 2%;
 }
 
 .navbar nav {
