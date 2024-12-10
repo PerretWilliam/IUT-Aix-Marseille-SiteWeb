@@ -28,6 +28,10 @@ body {
   font-size: 1.5em;
 }
 
+.navbar svg {
+  background-repeat: repeat-x;
+}
+
 .navbar .nav-link {
   color: white;
 }
