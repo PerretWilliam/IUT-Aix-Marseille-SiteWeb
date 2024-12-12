@@ -16,6 +16,10 @@ body {
   max-width: 20%;
 }
 
+.container{
+  padding-top: 2%
+}
+
 /* Barre de navigation */
 .navbar {
   padding-right: 2%;
