@@ -15,7 +15,7 @@
 
   <!-- CSS de AOS -->
   <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,13 +32,8 @@
           <li class="nav-item">
             <a class="nav-link" href="competences.html">Compétences</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-              aria-expanded="false">Cours</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="horaire_cours.html">Horaires</a></li>
-              <li><a class="dropdown-item" href="SAE.html">SAE</a></li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="cours.html">Cours</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="debouche.html">Débouchés</a>
@@ -52,49 +47,72 @@
   </header>
 
   <div class="container">
-    <div class="row justify-content-center" id="card_content">
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 contact" data-aos="fade-up">
-          <img src="assets/images/contacts/No_PP.png" class="card-img-top" alt="Contact Image 1">
+    <h2 class="text-center mb-4" data-aos="fade-up">Contacts</h2>
+    <div class="row" id="card_content">
+      <div class="contact col-md-4 mb-4" data-aos="fade-up">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/photo profil-Pauline-Gaston.jpg" class="card-img-top" alt="Pauline Gaston">
           <div class="card-body">
-            <h5 class="card-title">Pauline GASTON
-            </h5>
-            <p class="card-text">Description for contact 1.</p>
+            <h5 class="card-title">Pauline GASTON</h5>
+            <p class="card-text">Assistante Dpt Informatique.</p>
             <div class="row">
-              <a class="p-2" href="#"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
-              <a class="p-2" href="#"><i class="fa-solid fa-phone link_icon"></i>04 13 94 44 54</a>
+              <a class="p-2" href="mailto:pauline.gaston@univ-amu.fr"><i
+                  class="fa-solid fa-envelope link_icon"></i>Email</a>
+              <a class="p-2" href="tel: 04 13 94 44 54"><i class="fa-solid fa-phone link_icon"></i>04 13 94 44 54</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-5 mb-4">
-        <div class="card h-100 contact" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/images/contacts/No_PP.png" class="card-img-top" alt="Contact Image 2">
+      <div class="contact col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/Photo-profil-diasdafonseca.jpg" class="card-img-top"
+            alt="Guilherme DIAS DA FONSECA">
           <div class="card-body">
             <h5 class="card-title">Guilherme <br>DIAS DA FONSECA
             </h5>
-            <p class="card-text">Description for contact 2.</p>
-            <a href="#"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
+            <p class="card-text">Enseignant chercheur - Chef de département - référent RI.</p>
+            <a href="mailto:guilherme.dias-da-fonseca@univ-amu.fr"><i
+                class="fa-solid fa-envelope link_icon"></i>Email</a>
           </div>
         </div>
       </div>
-      <div class="col-md-5 mb-4">
-        <div class="card h-100 contact" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/images/contacts/No_PP.png" class="card-img-top" alt="Contact Image 3">
+      <div class="contact col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/user.png" class="card-img-top" alt="Sébastien THON">
           <div class="card-body">
-            <h5 class="card-title">Contact 3</h5>
-            <p class="card-text">Description for contact 3.</p>
-            <a href="#"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
+            <h5 class="card-title">Sébastien THON</h5>
+            <p class="card-text">Enseignant chercheur, directeur du BUT 1ère année.</p>
+            <a href="mailto:sebastien.thon@univ-amu.fr"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
           </div>
         </div>
       </div>
-      <div class="col-md-5 mb-4">
-        <div class="card h-100 contact" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/images/contacts/No_PP.png" class="card-img-top" alt="Contact Image 3">
+      <div class="contact col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/user.png" class="card-img-top" alt="Ricardo URIBE-LOBELLO">
           <div class="card-body">
-            <h5 class="card-title">Contact 4</h5>
-            <p class="card-text">Description for contact 4.</p>
-            <a href="#"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
+            <h5 class="card-title">Ricardo URIBE-LOBELLO</h5>
+            <p class="card-text">Enseignant chercheur - Direction des études BUT Informatique 2ème année.</p>
+            <a href="mailto:ricardo.URIBE-LOBELLO@univ-amu.fr"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/user.png" class="card-img-top" alt="Bruno COLOMBEL">
+          <div class="card-body">
+            <h5 class="card-title">Bruno COLOMBEL</h5>
+            <p class="card-text">Enseignant - Direction des études BUT Informatique 3ème année.</p>
+            <a href="mailto:bruno.colombel@univ-amu.fr"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="card h-100">
+          <img src="./assets/images/contacts/Photo-profil-EricRémy.jpg" class="card-img-top" alt="Eric RÉMY">
+          <div class="card-body">
+            <h5 class="card-title">Eric RÉMY</h5>
+            <p class="card-text">Enseignant chercheur et responsable du recrutement.</p>
+            <a href="mailto:eric.remy@univ-amu.fr"><i class="fa-solid fa-envelope link_icon"></i>Email</a>
           </div>
         </div>
       </div>
