@@ -27,6 +27,7 @@ header img.logo {
 
 .navbar .nav-link,
 .navbar .nav-link.active {
+  font-size: 1.3rem;
   color: white;
 }
 
@@ -87,7 +88,6 @@ section p {
 }
 
 .card p {
-  text-indent: 30px;
   word-spacing: -2px;
   hyphens: auto;
 }
