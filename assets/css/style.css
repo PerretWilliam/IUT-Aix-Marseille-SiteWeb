@@ -12,22 +12,24 @@ body {
   flex: 1;
 }
 
-/* Barre de navigation */
+/* Haut de page */
 
 #header {
-  background-image: url(../images/header_wave.svg);
+  background-color: #660099;
   padding: 1%;
+  display: flex;
 }
 
 header img.logo {
-  width: 20%;
-  height: auto;
+  max-height: 5rem;
+  aspect-ratio: auto;
 }
 
-.navbar .nav-link {
-  color: white;
+.navbar {
+  margin-left: auto;
 }
 
+.navbar .nav-link,
 .navbar .nav-link.active {
   color: white;
 }
@@ -54,9 +56,7 @@ header img.logo {
   max-width: 20%;
 }
 
-/* Page d'accueil */
-
-/* Présentation de l'IUT d'Aix-Marseille et du BUT */
+/* Texte */
 h2 {
   font-size: 2.5em;
   color: #660099;
@@ -69,7 +69,6 @@ section p {
 }
 
 /* Carrousel */
-
 #carouselExampleIndicators {
   border-radius: 12px;
   margin: 0px;
@@ -85,7 +84,7 @@ section p {
   object-fit: cover;
 }
 
-/* Paramètre des cards */
+/* Cards */
 .card {
   border: none;
   border-radius: 10px;
@@ -141,4 +140,21 @@ section p {
 .contact .link_icon {
   font-size: 1em;
   margin: 0 10px;
+}
+
+@media (max-width: 900px) {
+  #header {
+    flex-direction: column;
+  }
+
+  #header .logo {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
